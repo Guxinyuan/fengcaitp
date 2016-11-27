@@ -1,0 +1,403 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+body{
+	width: 100%;
+	background-color: black;
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix{
+	*+height:1%;
+}
+.container{
+	width: 85%;
+	position: relative;
+}
+.header{
+	margin-top: 30%;
+	width: 100%;
+	text-align: center;
+}
+#banner{
+	width: 40%;
+}
+.content1{
+	width: 100%;
+	position: relative;
+}
+#xs1{
+	width: 50%;
+	float: right;
+}
+.content2{
+	width: 100%;
+	position: relative;
+}
+.content2-left{
+	width: 50%;
+	float: left;
+}
+#xs2{
+	width: 90%;
+}
+.content2-right{
+	width: 50%;
+	float: left;
+	margin-top: 13%;
+}
+#xs3{
+	width: 90%;
+	margin-left: 18%;
+}
+.content3{
+	width: 100%;
+	position: relative;
+}
+.content3-left{
+	width: 50%;
+	float: left;
+}
+.content3-right{
+	width: 50%;
+	float: left;
+	margin-top: 13%;
+}
+#xs4{
+	width: 90%;
+}
+#xs5{
+	width: 90%;
+	margin-left: 18%;
+}
+.content4{
+	position: relative;
+	width: 100%;
+}
+.content4-left{
+	width: 50%;
+	float: left;
+}
+.content4-right{
+	width: 50%;
+	float: left;
+	margin-top: 13%;
+}
+#xs6{
+	width: 90%;
+}
+#xs7{
+	width: 90%;
+	margin-left: 18%;
+}
+.content5{
+	position: relative;
+	width: 100%;
+}
+#xs8{
+	width: 80%;
+}
+.content6{
+	position: relative;
+	width: 100%;
+}
+#xs9{
+	width: 80%;
+	float: right;
+}
+.content7{
+	position: relative;
+	width: 100%
+}
+#xs10{
+	width: 80%;
+}
+.footer{
+	width: 100%;
+	
+	position: absolute;
+	left: 0;
+	top: 101%;
+}
+#footer{
+	width: 50%;
+}
+.voteNum1{
+	position: absolute;
+	right: 28%;
+	top: 48%;
+}
+.voteNum2{
+	position: absolute;
+	left: 23%;
+	top: 26%;
+}
+.voteNum3{
+	position: absolute;
+	right: 21%;
+	top: 67%;
+}
+.voteNum4{
+	position: absolute;
+	left: 23%;
+	top: 26%;
+}
+.voteNum5{
+	position: absolute;
+	right: 21%;
+	top: 67%;
+}
+.voteNum6{
+	position: absolute;
+	left: 23%;
+	top: 26%;
+}
+.voteNum7{
+	position: absolute;
+	right: 21%;
+	top: 67%;
+}
+.voteNum8{
+	position: absolute;
+	left: 38%;
+	top: 42%;
+}
+.voteNum9{
+	position: absolute;
+	right: 39%;
+	top: 49%;
+}
+.voteNum10{
+	position: absolute;
+	left: 39%;
+	top: 42%;
+}
+.zfq{
+	width: 100%;
+	/*background-color: black;*/
+	position: absolute;
+	/*opacity: 0.9;*/
+	display: none;
+	z-index: 999;
+	text-align: center;
+	top:0;
+	color: #ffffff;
+}
+#zfq{
+	margin-top: 10%;
+	width: 85%
+}
+.lefttop{
+	position: absolute;
+	left: 0;
+	top: 1%;
+}
+.lefttop img{
+	width: 20%;
+	margin-left: 3%;
+}
+a{
+	text-decoration: none;
+}
+#btn{
+	position: absolute;
+	top: 40%;
+	left: 12%;
+	width: 23%;
+}
+#back{
+	position: absolute;
+	top: 55%;
+	left: 12%;
+	width: 23%;
+}
+.ms{
+	position: absolute;
+	left: 34%;
+	top: 17%;
+	font-size: 30px;
+}
+.name{
+	width: 30%;
+	position: absolute;
+	top:25%;
+	left: 50%;
+	font-size: 50px;
+}
+.brief{
+	width: 23%;
+	position: absolute;
+	top: 11%;
+	left: 65%;
+	font-size: 30px;
+}
+.detail{
+	width: 38%;
+	position: absolute;
+	top:50%;
+	left: 48%;
+	font-size: 30px;
+}
+.vote_pic{
+	width: 15%;
+	position: absolute;
+	top:15%;
+	left: 13%;
+}
+.vote_pic img{
+	width: 100%;
+}
+@media screen and (max-width: 768px){
+	body{
+		overflow: hidden;
+	}
+	.zfq{
+		position: fixed;
+	}
+	.detail{
+		font-size: 20px;
+	}
+	.name{
+		font-size: 30px;
+	}
+	.brief{
+		font-size: 20px;
+	}
+	.container span{
+		font-size: 10px;
+	}
+	.ms{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 450px){
+	.detail{
+		font-size: 1px;
+	}
+	.name{
+		font-size: 20px;
+	}
+	.brief{
+		font-size: 10px;
+	}
+	.container span{
+		font-size: 5px;
+	}
+	.ms{
+		font-size: 10px;
+	}
+	.voteNum1{
+		right: 27%;
+		top: 43%;
+	}
+	.voteNum2{
+		left: 21%;
+		top: 23%;
+	}
+	.voteNum3{
+		right: 20%;
+		top: 62%;
+	}
+	.voteNum4{
+		left: 21%;
+		top: 23%;
+	}
+	.voteNum5{
+		right: 20%;
+		top: 62%;
+	}
+	.voteNum6{
+		left: 21%;
+		top: 23%;
+	}
+	.voteNum7{
+		right: 20%;
+		top: 62%;
+	}
+	.voteNum8{
+		left: 36%;
+		top: 38%;
+	}
+	.voteNum9{
+		right: 39%;
+		top: 45%;
+	}
+	.voteNum10{
+		left: 36%;
+		top: 38%;
+	}
+	.footer{
+		top: 99.5%;
+	}
+}
+@media screen and (max-width: 375px){
+	.detail{
+		font-size: 0.1px;
+	}
+	.name{
+		font-size: 15px;
+	}
+	.brief{
+		font-size: 5px;
+	}
+	.container span{
+		font-size: 1px;
+	}
+	.ms{
+		font-size: 5px;
+	}
+}
+@media screen and (max-width: 320px){
+	.detail{
+		font-size: 0.01rem;
+		top:47%;
+	}
+	.name{
+		font-size: 10px;
+	}
+	.brief{
+		font-size: 0.5px;
+	}
+	.ms{
+		font-size: 0.5px;
+	}
+	.voteNum2{
+		left: 20%;
+		top: 22%;
+	}
+	.voteNum4{
+		left: 20%;
+		top: 22%;
+	}
+	.voteNum6{
+		left: 20%;
+		top: 22%;
+	}
+	.voteNum8{
+		left: 35%;	
+		top: 36%;
+	}
+	.voteNum9{
+		right: 39%;
+		top: 43%;
+	}
+	.voteNum10{
+		left: 35%;
+		top: 36%;
+	}
+	.footer{
+		top: 99%;
+	}
+	
+}
